@@ -98,7 +98,7 @@ export default {
         let vm = this;
         if (bottomOfWindow) {
           // append after 5s
-          setTimeout(() => vm.carsList.push(...mockData), 5000);
+          setTimeout(() => vm.carsList.push(...mockData), 500);
         }
       };
     },
